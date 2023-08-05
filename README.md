@@ -19,14 +19,14 @@ The frontend section will involve creating dynamic and responsive user interface
 ### Visual Studio Code download ###
 
 To download the latest version of VS Code click <u>[here](https://code.visualstudio.com/)</u> for the respective OS and for the download tutorial, you can refer to this <u>[link](https://www.youtube.com/watch?v=u8APxuCICkA)</u>. 
-To set up vs code install necessary extensions mentioned <u>[here](https://www.syncfusion.com/blogs/post/top-15-vs-code-extensions-every-developer-should-know.aspx)</u>. To do so click on ![Image2](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/Extension.png)
+To set up vs code install the necessary extensions mentioned <u>[here](https://www.syncfusion.com/blogs/post/top-15-vs-code-extensions-every-developer-should-know.aspx)</u>. To do so click on ![Image2](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/Extension.png) this.
 
 ### MySQL Workbench download ###
 
 To download the latest version of MySQL workbench click <u>[here](https://www.mysql.com/downloads/)</u> 
 Downloads --> MySQL Community (GPA) Downloads -->  MySQL Installer for Windows --> **mysql-installer-community-8.0.34.0.msi** (version may vary, and do not download mysql-installer-web-community-8.0.34.0.msi instead of mentioned above .msi file)
-For the download tutorial, refer to this <u>[link](https://www.youtube.com/watch?v=VK4nTHqbcMg)</u>. Once you download it successfully open the command prompt and run the command **mysql --version** to ensure successful installation of MySQL workbench, it will show version of MySQL.
-Required extension on VS Code mentioned <u>[here](https://www.syncfusion.com/blogs/post/7-vs-code-extensions-for-react-developers.aspx)</u>
+For the download tutorial, refer to this <u>[link](https://www.youtube.com/watch?v=VK4nTHqbcMg)</u>. Once you download it successfully open the command prompt and run the command **mysql --version** to ensure successful installation of MySQL workbench, it will show version of MySQL. Make sure that a path is added to **System Environment Variable**.
+Required extension on VS Code mentioned <u>[here](https://www.syncfusion.com/blogs/post/7-vs-code-extensions-for-react-developers.aspx).</u>
 
 ### NodeJS download ###
 
@@ -52,7 +52,7 @@ Firstly, check <u> [this](https://www.npmjs.com/package/create-react-app) </u> w
 
 **`npm i -g create-react-app@1.5.2`** 
 
-It should give results like below:
+It should give results like the below:
 
 ![Image](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/create-react-app.png)
 
@@ -60,10 +60,12 @@ Then,
 
 **` create-react-app my-react-app `**
 
-It should give results like below:
+It should give results like the below:
 
-![Image1](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/my-react-app.png)
+![Image2](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/my-react-app.png)
 
-![Image](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/my-react-app1.png)
+![Image3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/my-react-app1.png)
 
-Replace my-react-app with the desired name of your project. This command will generate a new folder with the project structure and necessary files and this might take some time. Once project created then open this project in VS Code (File -> Open folder).
+Replace my-react-app with the desired name of your project. This command will generate a new folder with the project structure and necessary files and this might take some time. Once the project is created then open this project in VS Code (File -> Open folder).
+
+![Image3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/VS%20Code%20window.png)
