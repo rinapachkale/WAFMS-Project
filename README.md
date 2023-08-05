@@ -42,7 +42,7 @@ To create a new React app, follow these steps:
 1. **Install Node.js and npm:** Ensure you have Node.js (which includes npm, the Node Package Manager) installed on your computer.
 2. **Create a New React App:** Open your terminal or command prompt and run the following commands in same order to create a new React app using Create React App (a popular tool to set up a new React project):
 
-Firstly, check <u> [this](https://www.npmjs.com/package/create-react-app) </u> wesite for the latest version of the global command for Create React App
+Firstly, check <u> [this](https://www.npmjs.com/package/create-react-app) </u> wesite for the latest version of the global command for Create React App. This package includes the global command for Create React App.
 
 **`npm i -g create-react-app@1.5.2`** 
 
