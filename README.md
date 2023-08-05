@@ -57,6 +57,7 @@ Then,
 It should give results like below:
 
 ![Image1](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/my-react-app.png)
+
 ![Image](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/my-react-app1.png)
 
 Replace my-react-app with the desired name of your project. This command will generate a new folder with the project structure and necessary files and this might take some time.
