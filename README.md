@@ -32,6 +32,12 @@ Required extension on VS Code mentioned <u>[here](https://www.syncfusion.com/blo
 
 To download the latest version of **Node.js** click <u>[here](https://nodejs.org/en)</u>. For a download tutorial, you can also refer to this <u>[link](https://www.youtube.com/watch?v=06X51c6WHsQ)</u>. Make sure that path is added to **System Environment Variable**.
 
+Required Extensions: 
+
+- npm
+- npm Intellisense
+- ESLint
+
 ## Database (MySQL) ##
 
 ## Backend (Node.js) ##
