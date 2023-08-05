@@ -75,3 +75,7 @@ Now, one can only modify **src file**.
 ![Image4](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer1.png) ![Image5](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer2.png) ![Image6](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer3.png)
 
 Now create two separate files for Components and Pages. Here, each component name (AppHeader, AppRoutes, PageContent, SideMenu) depicts its purpose. A pages file contains the number of web pages we want in our website.
+
+The link below provides a vast collection of node packages
+
+[https://www.npmjs.com/](https://www.npmjs.com/)
