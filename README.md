@@ -46,10 +46,16 @@ Firstly, check <u>[this](https://www.npmjs.com/package/create-react-app)</u> wes
 
 **`npm i -g create-react-app@1.5.2`** 
 
+It should give results like below:
 
+![Image](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/create-react-app.png)
 
 Then,
 
 **` create-react-app my-react-app `**
+
+It should give results like below:
+
+![Image1]()
 
 Replace my-react-app with the desired name of your project. This command will generate a new folder with the project structure and necessary files and this might take some time.
