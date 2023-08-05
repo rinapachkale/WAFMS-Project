@@ -70,4 +70,7 @@ Replace my-react-app with the desired name of your project. This command will ge
 
 ![Image3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/VS%20Code%20window.png)
 
-Now, one can modify only **src file**.
+Now, one can only modify **src file**.
+
+![Image4](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer1.png) ![Image5](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer2.png) ![Image6](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer3.png)
+
