@@ -99,3 +99,6 @@ Link: [https://www.chartjs.org/docs/latest/](https://www.chartjs.org/docs/latest
 4. **React-Bootstrap:** React-Bootstrap is a library that combines the power and flexibility of React with the popular Bootstrap framework, making it easier for developers to create visually appealing and mobile-friendly user interfaces.
 
 Link: [https://react-bootstrap.netlify.app/docs/getting-started/introduction](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
+
+For website architecture, you can refer to this [link](https://www.youtube.com/watch?v=xvBUgdKUz5g&t=2083s)
+
