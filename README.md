@@ -69,3 +69,5 @@ It should give results like the below:
 Replace my-react-app with the desired name of your project. This command will generate a new folder with the project structure and necessary files and this might take some time. Once the project is created then open this project in VS Code (File -> Open folder).
 
 ![Image3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/VS%20Code%20window.png)
+
+Now, one can modify only **src file**.
