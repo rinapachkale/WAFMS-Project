@@ -19,7 +19,7 @@ The frontend section will involve creating dynamic and responsive user interface
 ### Visual Studio Code download ###
 
 To download the latest version of VS Code click <u>[here](https://code.visualstudio.com/)</u> for the respective OS and for the download tutorial, you can refer to this <u>[link](https://www.youtube.com/watch?v=u8APxuCICkA)</u>. 
-To set up vs code install necessary extensions from mentioned <u>[here](https://www.syncfusion.com/blogs/post/top-15-vs-code-extensions-every-developer-should-know.aspx)</u>.
+To set up vs code install necessary extensions mentioned <u>[here](https://www.syncfusion.com/blogs/post/top-15-vs-code-extensions-every-developer-should-know.aspx)</u>. To do so click on ![Image2](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/Extension.png)
 
 ### MySQL Workbench download ###
 
@@ -48,7 +48,7 @@ To create a new React app, follow these steps:
 1. **Install Node.js and npm:** Ensure you have Node.js (which includes npm, the Node Package Manager) installed on your computer.
 2. **Create a New React App:** Open your terminal or command prompt and run the following commands in same order to create a new React app using Create React App (a popular tool to set up a new React project):
 
-Firstly, check <u> [this](https://www.npmjs.com/package/create-react-app) </u> wesite for the latest version of the global command for Create React App. This package includes the global command for Create React App.
+Firstly, check <u> [this](https://www.npmjs.com/package/create-react-app) </u> wesite for the latest version. This package includes the global command for Create React App.
 
 **`npm i -g create-react-app@1.5.2`** 
 
@@ -66,4 +66,4 @@ It should give results like below:
 
 ![Image](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/my-react-app1.png)
 
-Replace my-react-app with the desired name of your project. This command will generate a new folder with the project structure and necessary files and this might take some time.
+Replace my-react-app with the desired name of your project. This command will generate a new folder with the project structure and necessary files and this might take some time. Once project created then open this project in VS Code (File -> Open folder).
