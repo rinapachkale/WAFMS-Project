@@ -43,6 +43,8 @@ Required Extensions:
 ## Backend (Node.js) ##
 
 ## Frontend (React.js) ##
+For frontend we used React.js. React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
+
 To create a new React app, follow these steps:
 
 1. **Install Node.js and npm:** Ensure you have Node.js (which includes npm, the Node Package Manager) installed on your computer.
@@ -79,3 +81,21 @@ Now create two separate files for Components and Pages. Here, each component nam
 The link below provides a vast collection of node packages
 
 [https://www.npmjs.com/](https://www.npmjs.com/)
+
+Other useful packages of components and design patterns are:
+
+1. **Ant Design:** Its main purpose is to provide developers with a set of high-quality, efficient, and customizable UI components and design patterns for building modern web applications.
+
+Link: [https://ant.design/](https://ant.design/)
+
+2. **Recharts:** Recharts is a popular open-source JavaScript charting library specifically designed for React, making it an excellent choice for developers building data-driven web applications.
+
+Link: [https://recharts.org/en-US/api](https://recharts.org/en-US/api)
+
+3. **Chart.js:**  Chart.js provides developers with a simple and flexible JavaScript library for creating interactive and visually appealing charts and data visualizations on web pages. Chart.js is an open-source library that allows developers to easily integrate various types of charts into their web applications without the need for complex configurations.
+
+Link: [https://www.chartjs.org/docs/latest/](https://www.chartjs.org/docs/latest/)
+
+4. **React-Bootstrap:** React-Bootstrap is a library that combines the power and flexibility of React with the popular Bootstrap framework, making it easier for developers to create visually appealing and mobile-friendly user interfaces.
+
+Link: [https://react-bootstrap.netlify.app/docs/getting-started/introduction](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
