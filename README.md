@@ -44,17 +44,17 @@ The initial view of the MySQL workbench is as below:
 
 ![workbech](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/MySQL%20WorkBench.png)
 
-Users can create as many local instances by clicking on plus sign as shown in the above window. When you open this window for the first time, on clicking on the local instance you have to enter your username (i.e. usually **root** and password).
+Users can create as many local instances by clicking on plus sign as shown in the above window.
 
 There are two ways to create tables in a database:
 
-Method 1: Using MySQL Workbench UI
+**Method 1: Using MySQL Workbench UI**
 
-1. Open MySQL Workbench: Launch MySQL Workbench and connect to your MySQL server by clicking on the "+" icon in the "MySQL Connections" panel and entering the necessary connection details (hostname, username, password, etc.).
-2. Create a New Database: Once connected, you'll see the available databases listed under the "SCHEMAS" section in the left sidebar. Right-click on the "SCHEMAS" and select "Create Schema..." or click on the "Create a new schema in the connected server" icon (blue cylinder with a + symbol).
-3. Name the New Database: A dialog box will appear where you can enter the name of the new database. Provide a name and click "Apply" to create the database.
-4. Select the New Database: The newly created database will now appear under the "SCHEMAS" section. Double-click on the database name to select it as the current database.
-5. Create Tables: With the new database selected, go to the "Table" tab in the main window and click on the "Create Table" button (sheet of paper with a + symbol). This will open a new window where you can define the table's columns, data types, and constraints.
+1. **Open MySQL Workbench:** Launch MySQL Workbench, when you open this window for the first time, on clicking on the local instance you have to enter your username (i.e. usually **root** and password).
+2. **Create a New Database:** Once connected, you'll see the available databases listed under the "SCHEMAS" section in the left sidebar. Right-click on the "SCHEMAS" and select "Create Schema..." or click on the "Create a new schema in the connected server" [icon](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgkscientist.com%2Fcreate-database-in-mysql%2F&psig=AOvVaw2I-bLYfXr-h_y03njZ1Wye&ust=1691402828899000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDQ0uDkx4ADFQAAAAAdAAAAABAP) icon (blue cylinder with a + symbol).
+3. **Name the New Database:** A dialog box will appear where you can enter the name of the new database. Provide a name and click "Apply" to create the database.
+4. **Select the New Database:** The newly created database will now appear under the "SCHEMAS" section. Double-click on the database name to select it as the current database.
+5. **Create Tables:** With the new database selected, go to the "Table" tab in the main window and click on the "Create Table" button (sheet of paper with a + symbol). This will open a new window where you can define the table's columns, data types, and constraints.
 
 Fill in the necessary details and click "Apply" to create the table.
 
