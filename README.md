@@ -78,13 +78,21 @@ Fill in the necessary details and click "Apply" to create the table.
 4. **Create Table:** Write a query to create a table. E.g.
 
 **```CREATE TABLE `esp_database_php`.`esp_data_php` (
+
   `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
+  
   `sensor` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
+  
   `location` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
+  
   `value1` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  
   `value2` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  
   `value3` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  
   `reading_time` TIMESTAMP(4) NOT NULL DEFAULT current_timestamp(),
+  
   PRIMARY KEY (`id`));**
 
 With both methods, you can now create databases and tables in MySQL Workbench according to your requirements. Choose the method that suits your preference and the complexity of your project.
