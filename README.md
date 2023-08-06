@@ -92,7 +92,7 @@ Method 2: Using SQL Query
   
   `reading_time` TIMESTAMP(4) NOT NULL DEFAULT current_timestamp(),
   
-  PRIMARY KEY (`id`));```
+  PRIMARY KEY (`id`));
 
 ## Backend Development and Database Connectivity (Node.js) ##
 
