@@ -9,7 +9,7 @@ The web development section of the wide-area frequency measurement project is fo
 - Backend development using Node.js
 - Database creation using MySQL
 
-The frontend section will involve creating dynamic and responsive user interfaces to visualize real-time frequency data and location-based insights. In the backend section, we will establish a robust Node.js server to handle data requests, process business logic, and interact with the MySQL database. Throughout the development process, we will follow steps including project setup, designing and implementing the frontend, defining the database schema, establishing database connectivity, implementing API endpoints for data retrieval and updates, error handling, testing, and finally, deploying the application to ensure a seamless user experience and accurate frequency measurement analysis.
+The frontend section will involve creating dynamic and responsive user interfaces to visualize real-time frequency data and location-based insights. In the backend section, we will establish a robust Node.js server to handle data requests, process business logic, and interact with the MySQL database. Throughout the development process, we will follow steps including project setup, designing and implementing the frontend, defining the database schema, establishing database connectivity, implementing API endpoints for data retrieval and updates, error handling, testing.
 
 ### Software tools required ###
 - Visual Studio Code
