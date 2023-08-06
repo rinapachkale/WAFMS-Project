@@ -1,6 +1,6 @@
 # Wide Area Frequency Measurement System (WAFMS) #
 
-## Web Development ##
+## Full Stack Web Development ##
 
 The web development section of the wide-area frequency measurement project is focused on building an efficient and user-friendly application to monitor and analyze frequency measurements across different locations. 
 
