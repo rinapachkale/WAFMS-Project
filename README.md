@@ -44,7 +44,7 @@ The initial view of the MySQL workbench is as below:
 
 ![workbech](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/MySQL%20WorkBench.png)
 
-Users can create as many local instances by clicking on plus sign as shown in the above window.
+Users can create as many local instances by clicking on plus sign as shown in the above window. To refer to the tutorial video, <u>[click here](https://www.youtube.com/watch?v=wALCw0F8e9M&t=196s)</u>
 
 There are two ways to create tables in a database:
 
@@ -67,32 +67,27 @@ This will open a new window where you can define the table's columns, data types
 
 Fill in the necessary details and click "Apply" to create the table.
 
-Method 2: Using SQL Query
+**Method 2: Using SQL Query**
 
-1. Open MySQL Workbench.
-2. Open SQL Editor: Click on the "SQL Editor" button in the top toolbar. This will open a new tab for writing and executing SQL queries.
-3. Create Database: To create a new database using an SQL query, you can use the CREATE DATABASE statement:
+1. **Open MySQL Workbench.**
+2. **Open SQL Editor:** Click on the "SQL Editor" button in the top toolbar. This will open a new tab for writing and executing SQL queries.
+3. **Create Database:** To create a new database using an SQL query, you can use the CREATE DATABASE statement:
  
 **`CREATE DATABASE database_name;`**
 
-4. Create Table: Write a query to craete table. E.g.
+4. **Create Table:** Write a query to create a table. E.g.
 
-```CREATE TABLE `esp_database_php`.`esp_data_php` (
+**```CREATE TABLE `esp_database_php`.`esp_data_php` (
   `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
-  
   `sensor` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
-  
   `location` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
-  
   `value1` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
-  
   `value2` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
-  
   `value3` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
-  
   `reading_time` TIMESTAMP(4) NOT NULL DEFAULT current_timestamp(),
-  
-  PRIMARY KEY (`id`));
+  PRIMARY KEY (`id`));**
+
+With both methods, you can now create databases and tables in MySQL Workbench according to your requirements. Choose the method that suits your preference and the complexity of your project.
 
 ## Backend Development and Database Connectivity (Node.js) ##
 
