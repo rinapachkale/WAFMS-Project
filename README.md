@@ -79,14 +79,20 @@ Method 2: Using SQL Query
 
 ```CREATE TABLE `esp_database_php`.`esp_data_php` (
   `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
+  
   `sensor` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
+  
   `location` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
+  
   `value1` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  
   `value2` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  
   `value3` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  
   `reading_time` TIMESTAMP(4) NOT NULL DEFAULT current_timestamp(),
-  PRIMARY KEY (`id`));
-```
+  
+  PRIMARY KEY (`id`));```
 
 ## Backend Development and Database Connectivity (Node.js) ##
 
