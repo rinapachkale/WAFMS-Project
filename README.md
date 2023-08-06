@@ -77,7 +77,7 @@ Method 2: Using SQL Query
 
 4. Create Table: Write a query to craete table. E.g.
 
-**`CREATE TABLE `esp_database_php`.`esp_data_php` (
+```CREATE TABLE `esp_database_php`.`esp_data_php` (
   `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
   `sensor` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
   `location` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
@@ -86,7 +86,7 @@ Method 2: Using SQL Query
   `value3` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
   `reading_time` TIMESTAMP(4) NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`id`));
-`**
+```
 
 ## Backend Development and Database Connectivity (Node.js) ##
 
