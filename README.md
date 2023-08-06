@@ -48,7 +48,7 @@ Users can create as many local instances by clicking on plus sign as shown in th
 
 There are two ways to create tables in a database:
 
-###Method 1: Using MySQL Workbench UI###
+### Method 1: Using MySQL Workbench UI ###
 
 1. **Open MySQL Workbench:** Launch MySQL Workbench, when you open this window for the first time, on clicking on the local instance you have to enter your username (i.e. usually **root** and password).
 2. **Create a New Database:** Once connected, you'll see the available databases listed under the "SCHEMAS" section in the left sidebar. Right-click on the "SCHEMAS" and select "Create Schema..." or click on "Create a new schema in the connected server" icon. ![icon](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/icon.png)
@@ -67,7 +67,7 @@ This will open a new window where you can define the table's columns, data types
 
 Fill in the necessary details and click "Apply" to create the table.
 
-###Method 2: Using SQL Query###
+### Method 2: Using SQL Query ###
 
 1. **Open MySQL Workbench.**
 2. **Open SQL Editor:** Click on the "SQL Editor" button in the top toolbar. This will open a new tab for writing and executing SQL queries.
