@@ -48,7 +48,7 @@ Users can create as many local instances by clicking on plus sign as shown in th
 
 There are two ways to create tables in a database:
 
-**Method 1: Using MySQL Workbench UI**
+###Method 1: Using MySQL Workbench UI###
 
 1. **Open MySQL Workbench:** Launch MySQL Workbench, when you open this window for the first time, on clicking on the local instance you have to enter your username (i.e. usually **root** and password).
 2. **Create a New Database:** Once connected, you'll see the available databases listed under the "SCHEMAS" section in the left sidebar. Right-click on the "SCHEMAS" and select "Create Schema..." or click on "Create a new schema in the connected server" icon. ![icon](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/icon.png)
@@ -67,7 +67,7 @@ This will open a new window where you can define the table's columns, data types
 
 Fill in the necessary details and click "Apply" to create the table.
 
-**Method 2: Using SQL Query**
+###Method 2: Using SQL Query###
 
 1. **Open MySQL Workbench.**
 2. **Open SQL Editor:** Click on the "SQL Editor" button in the top toolbar. This will open a new tab for writing and executing SQL queries.
@@ -77,7 +77,7 @@ Fill in the necessary details and click "Apply" to create the table.
 
 4. **Create Table:** Write a query to create a table. E.g.
 
-**```CREATE TABLE `esp_database_php`.`esp_data_php` (**
+**CREATE TABLE `esp_database_php`.`esp_data_php` (**
 
   **`id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,**
   
@@ -99,7 +99,25 @@ With both methods, you can now create databases and tables in MySQL Workbench ac
 
 ## Backend Development and Database Connectivity (Node.js) ##
 
+Firstly, create node application by following steps:
 
+1. Create empty folder in your PC (preferably in C drive) and open it in command prompt. Now give following command:
+
+**`npm init`** and add package name, author and keep pressing till it reaches to this note **Is this OK? (yes)**, type **yes** and it will exit.
+
+![img1](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/npm%20init.png)
+
+![img2](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/backend1.png)
+
+Now install required packages (express, mysql):
+
+**`npm i express --save`**
+
+**`>npm i mysql --save`**
+
+![img3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/express%20mysql.png)
+
+This 
 
 ## Frontend Development & Full Stack Integration (React.js) ##
 For the frontend we used React.js. React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
