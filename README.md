@@ -51,13 +51,19 @@ There are two ways to create tables in a database:
 **Method 1: Using MySQL Workbench UI**
 
 1. **Open MySQL Workbench:** Launch MySQL Workbench, when you open this window for the first time, on clicking on the local instance you have to enter your username (i.e. usually **root** and password).
-2. **Create a New Database:** Once connected, you'll see the available databases listed under the "SCHEMAS" section in the left sidebar. Right-click on the "SCHEMAS" and select "Create Schema..." or click on "Create a new schema in the connected server" ![icon](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/icon.png) icon.
+2. **Create a New Database:** Once connected, you'll see the available databases listed under the "SCHEMAS" section in the left sidebar. Right-click on the "SCHEMAS" and select "Create Schema..." or click on "Create a new schema in the connected server" icon. ![icon](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/icon.png)
 3. **Name the New Database:** A dialog box will appear where you can enter the name of the new database. Provide a name and click "Apply" to create the database.
 
 ![db](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/db_creation.png)
 
 4. **Select the New Database:** The newly created database will now appear under the "SCHEMAS" section. Double-click on the database name to select it as the current database.
-5. **Create Tables:** With the new database selected, go to the "Table" tab in the main window and click on the "Create Table" button (sheet of paper with a + symbol). This will open a new window where you can define the table's columns, data types, and constraints.
+5. **Create Tables:** With the new database selected, go to the "Table" tab in the main window and click on the "Create Table" button.
+
+![dt](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/create%20table.webp)
+
+This will open a new window where you can define the table's columns, data types, and constraints.
+
+![apply](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/table%20dt.png)
 
 Fill in the necessary details and click "Apply" to create the table.
 
