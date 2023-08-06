@@ -97,6 +97,7 @@ Fill in the necessary details and click "Apply" to create the table.
 
 With both methods, you can now create databases and tables in MySQL Workbench according to your requirements. Choose the method that suits your preference and the complexity of your project.
 
+
 ## Backend Development and Database Connectivity (Node.js) ##
 
 Firstly, create node application by following steps:
@@ -109,7 +110,7 @@ Firstly, create node application by following steps:
 
 ![img2](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/backend1.png)
 
-Now install required packages (express, mysql):
+Now install the required packages (express, mysql):
 
 **`npm i express --save`**
 
@@ -117,7 +118,10 @@ Now install required packages (express, mysql):
 
 ![img3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/express%20mysql.png)
 
-Now open this Backend1 project folder in VS Code
+Now open this Backend1 project folder in VS Code. Add two more files **index.js** (for API creation) and **database.js** (for database connectivity). Once your project file is ready to run, open terminal window of VS Code and use **`node index.js`** command to run the project.
+
+After running the file, the server will be up and running at the specified port, and it will be ready to handle incoming requests. When a client sends a GET request to the root path ('/'), the server will respond with the data fetched from the respective table in the database.
+
 
 ## Frontend Development & Full Stack Integration (React.js) ##
 For the frontend we used React.js. React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
