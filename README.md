@@ -25,7 +25,7 @@ To set up vs code install the necessary extensions mentioned <u>[here](https://w
 
 To download the latest version of MySQL workbench click <u>[here](https://www.mysql.com/downloads/)</u> 
 Downloads --> MySQL Community (GPA) Downloads -->  MySQL Installer for Windows --> **mysql-installer-community-8.0.34.0.msi** (version may vary, and do not download mysql-installer-web-community-8.0.34.0.msi instead of mentioned above .msi file)
-For the download tutorial, refer to this <u>[link](https://www.youtube.com/watch?v=VK4nTHqbcMg)</u>. Once you download it successfully open the command prompt and run the command **mysql --version** to ensure successful installation of MySQL workbench, it will show version of MySQL. Make sure that a path is added to **System Environment Variable**.
+For the download tutorial, refer to this <u>[link](https://www.youtube.com/watch?v=VK4nTHqbcMg)</u>. Once you download it successfully open the command prompt and run the command **mysql --version** to ensure successful installation of MySQL workbench, it will show the version of MySQL. Make sure that a path is added to **System Environment Variable**.
 Required extension on VS Code mentioned <u>[here](https://www.syncfusion.com/blogs/post/7-vs-code-extensions-for-react-developers.aspx).</u>
 
 ### NodeJS download ###
@@ -38,11 +38,37 @@ Required Extensions:
 - npm Intellisense
 - ESLint
 
-## Database (MySQL) ##
+## Database Creation (MySQL) ##
 
-## Backend (Node.js) ##
+The initial view of the MySQL workbench is as below:
 
-## Frontend (React.js) ##
+![workbech](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/MySQL%20WorkBench.png)
+
+Users can create as many local instances by clicking on plus sign as shown in the above window. When you open this window for the first time, on clicking on the local instance you have to enter your username (i.e. usually **root** and password).
+
+There are two ways to create tables in a database:
+
+Method 1: Using MySQL Workbench UI
+
+1. Open MySQL Workbench: Launch MySQL Workbench and connect to your MySQL server by clicking on the "+" icon in the "MySQL Connections" panel and entering the necessary connection details (hostname, username, password, etc.).
+2. Create a New Database: Once connected, you'll see the available databases listed under the "SCHEMAS" section in the left sidebar. Right-click on the "SCHEMAS" and select "Create Schema..." or click on the "Create a new schema in the connected server" icon (blue cylinder with a + symbol).
+3. Name the New Database: A dialog box will appear where you can enter the name of the new database. Provide a name and click "Apply" to create the database.
+4. Select the New Database: The newly created database will now appear under the "SCHEMAS" section. Double-click on the database name to select it as the current database.
+5. Create Tables: With the new database selected, go to the "Table" tab in the main window and click on the "Create Table" button (sheet of paper with a + symbol). This will open a new window where you can define the table's columns, data types, and constraints.
+
+Fill in the necessary details and click "Apply" to create the table.
+
+Method 2: Using SQL Query
+
+1. Open MySQL Workbench: Connect to your MySQL server as explained in Method 1.
+2. Open SQL Editor: Click on the "SQL Editor" button in the top toolbar. This will open a new tab for writing and executing SQL queries.
+3. Create Database: To create a new database using an SQL query, you can use the CREATE DATABASE statement:
+
+## Backend Development and Database Connectivity (Node.js) ##
+
+
+
+## Frontend Development & Full Stack Integration (React.js) ##
 For the frontend we used React.js. React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
 
 To create a new React app, follow these steps:
@@ -72,7 +98,13 @@ Replace my-react-app with the desired name of your project. This command will ge
 
 ![Image3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/VS%20Code%20window.png)
 
-Now, one can only modify the **src file**. If you run this project by using the command **npm start** in the terminal window of **VS Code**, it will look like below
+Now, one can only modify the **src file**. In the project directory, start the development server by running the command **npm start** in the terminal window of **VS Code**, this will launch the app in your default web browser at http://localhost:3000, and it will automatically update as you make changes.
+
+You'll find the basic structure of a React app inside the project folder. Key folders and files include:
+
+- src: This folder contains the main source code of your React application.
+- public: This folder includes the public assets like index.html and other static files.
+- src/index.js: This is the entry point of your React app where you can find the rendering of the React components into the DOM.
 
 ![ReactApp](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/ReactApp.png)
 
@@ -104,4 +136,4 @@ Link: [https://react-bootstrap.netlify.app/docs/getting-started/introduction](ht
 
 For website architecture, you can refer to this video [link](https://www.youtube.com/watch?v=xvBUgdKUz5g&t=2083s) and you can take the help of chatGPT too.
 
-Once website is rea
+That's it! You have now successfully created a new frontend using React. Happy coding!
