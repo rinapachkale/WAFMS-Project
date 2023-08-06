@@ -43,12 +43,12 @@ Required Extensions:
 ## Backend (Node.js) ##
 
 ## Frontend (React.js) ##
-For frontend we used React.js. React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
+For the frontend we used React.js. React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
 
 To create a new React app, follow these steps:
 
 1. **Install Node.js and npm:** Ensure you have Node.js (which includes npm, the Node Package Manager) installed on your computer.
-2. **Create a New React App:** Open your terminal or command prompt and run the following commands in same order to create a new React app using Create React App (a popular tool to set up a new React project):
+2. **Create a New React App:** Open your terminal or command prompt and run the following commands in the same order to create a new React app using Create React App (a popular tool to set up a new React project):
 
 Firstly, check <u> [this](https://www.npmjs.com/package/create-react-app) </u> wesite for the latest version. This package includes the global command for Create React App.
 
@@ -72,17 +72,19 @@ Replace my-react-app with the desired name of your project. This command will ge
 
 ![Image3](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/VS%20Code%20window.png)
 
-Now, one can only modify **src file**.
+Now, one can only modify the **src file**. If you run this project by using the command **npm start** in the terminal window of **VS Code**, it will look like below
+
+![ReactApp](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/ReactApp.png)
+
+Now you are free to modify the design of the website as per your requirement. Like shown below, create two separate files for Components and Pages. Here, each component name (AppHeader, AppRoutes, PageContent, SideMenu) depicts its purpose. A **pages** file contains the number of web pages that we want on our website.
 
 ![Image4](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer1.png) ![Image5](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer2.png) ![Image6](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer3.png)
-
-Now create two separate files for Components and Pages. Here, each component name (AppHeader, AppRoutes, PageContent, SideMenu) depicts its purpose. A pages file contains the number of web pages we want in our website.
 
 The link below provides a vast collection of node packages
 
 [https://www.npmjs.com/](https://www.npmjs.com/)
 
-Other useful packages of components and design patterns are:
+**Other useful packages of components and design patterns are:**
 
 1. **Ant Design:** Its main purpose is to provide developers with a set of high-quality, efficient, and customizable UI components and design patterns for building modern web applications.
 
@@ -100,5 +102,6 @@ Link: [https://www.chartjs.org/docs/latest/](https://www.chartjs.org/docs/latest
 
 Link: [https://react-bootstrap.netlify.app/docs/getting-started/introduction](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
 
-For website architecture, you can refer to this [link](https://www.youtube.com/watch?v=xvBUgdKUz5g&t=2083s)
+For website architecture, you can refer to this video [link](https://www.youtube.com/watch?v=xvBUgdKUz5g&t=2083s) and you can take the help of chatGPT too.
 
+Once website is rea
