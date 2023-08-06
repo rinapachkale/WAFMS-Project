@@ -69,9 +69,24 @@ Fill in the necessary details and click "Apply" to create the table.
 
 Method 2: Using SQL Query
 
-1. Open MySQL Workbench: Connect to your MySQL server as explained in Method 1.
+1. Open MySQL Workbench.
 2. Open SQL Editor: Click on the "SQL Editor" button in the top toolbar. This will open a new tab for writing and executing SQL queries.
 3. Create Database: To create a new database using an SQL query, you can use the CREATE DATABASE statement:
+ 
+**`CREATE DATABASE database_name;`**
+
+4. Create Table: Write a query to craete table. E.g.
+
+**`CREATE TABLE `esp_database_php`.`esp_data_php` (
+  `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `sensor` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
+  `location` VARCHAR(30) CHARACTER SET 'utf8mb4' NOT NULL,
+  `value1` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  `value2` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  `value3` VARCHAR(30) CHARACTER SET 'utf8mb4' NULL DEFAULT NULL,
+  `reading_time` TIMESTAMP(4) NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`));
+`**
 
 ## Backend Development and Database Connectivity (Node.js) ##
 
