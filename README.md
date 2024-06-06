@@ -173,10 +173,7 @@ You'll find the basic structure of a React app inside the project folder. Key fo
 
 ![ReactApp](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/ReactApp.png)
 
-Now you are free to modify the design of the website as per your requirement. Like shown below, create two separate files for Components and Pages. Here, each component name (AppHeader, AppRoutes, PageContent, SideMenu) depicts its purpose. A **pages** file contains the number of web pages that we want on our website.
-
-![Image4](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer1.png) ![Image5](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer2.png) ![Image6](https://github.com/rinapachkale/WAFMS-Project-Blueprint/blob/master/explorer3.png)
-
+Now you are free to modify the design of the website as per your requirement.
 The link below provides a vast collection of node packages:
 
 [https://www.npmjs.com/](https://www.npmjs.com/)
