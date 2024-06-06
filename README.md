@@ -212,6 +212,4 @@ Create a JavaScript function (refer to the code) that fetches data from a backen
 
 **Full-stack Communication:** The code demonstrates the communication and data exchange between the frontend (React) and the backend (Node.js in this case). This is a fundamental aspect of full-stack integration, as it enables seamless interaction between different layers of the application.
 
-**Error Handling:** The code includes error handling using try/catch to handle any errors that may occur during the data fetching process. Proper error handling is essential in full-stack integration to ensure that the application gracefully handles unexpected situations and provides meaningful feedback to the user.
-
 That's it! You have now successfully created a full-stack Web application using Reactjs, Nodejs, and MySQL. Happy coding!
